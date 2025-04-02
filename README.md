@@ -45,7 +45,7 @@ Chris Olah
 
 (04:45:38) And my sense is that work has generally, it feels very principled, it makes so much sense, and yet that work hasn’t really panned out that well, is my impression broadly. And I think that a potential answer for that is that actually the neural network is already sparse in some sense. You were trying to go and do this. Gradient descent was actually behind the scenes going and searching more efficiently than you could through the space of sparse models and going and learning whatever sparse model was most efficient. And then figuring out how to fold it down nicely to go and run conveniently on your GPU, which does as nice dense matrix multiplies. And that you just can’t beat that.
 
-＃＃ Li Jiaqi on Haters
+## Li Jiaqi on Haters
 
 > Chengfeng 2025
 
