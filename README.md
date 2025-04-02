@@ -44,3 +44,9 @@ Chris Olah
 (04:45:11) Yeah, it’s finding how to fit it efficiently or something like this. The gradient descent is doing this and in fact, so this sort of says that gradient descent, it could just represent a dense neural network, but it sort of says that gradient descent is implicitly searching over the space of extremely sparse models that could be projected into this low-dimensional space. And this large body of work of people going and trying to study sparse neural networks where you go and you have… you could design neural networks where the edges are sparse and the activations are sparse.
 
 (04:45:38) And my sense is that work has generally, it feels very principled, it makes so much sense, and yet that work hasn’t really panned out that well, is my impression broadly. And I think that a potential answer for that is that actually the neural network is already sparse in some sense. You were trying to go and do this. Gradient descent was actually behind the scenes going and searching more efficiently than you could through the space of sparse models and going and learning whatever sparse model was most efficient. And then figuring out how to fold it down nicely to go and run conveniently on your GPU, which does as nice dense matrix multiplies. And that you just can’t beat that.
+
+＃＃ Li Jiaqi on Haters
+
+> Chengfeng 2025
+
+Because sometimes it's pointless to argue with them. You can't win arguments against them, so all I can do is become better. Because when you run faster, those voices can't catch up to you.
