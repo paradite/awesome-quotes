@@ -1,4 +1,5 @@
 # awesome-quotes
+
 Awesome quotes from podcasts and elsewhere
 
 ## Dario Amodei on vision and productivity
@@ -16,8 +17,6 @@ Awesome quotes from podcasts and elsewhere
 (01:38:37) This is one of these statements that’s more true every month. Every month I see this statement as more true than I did the month before. So if I were to do a thought experiment, let’s say you have a team of 100 people that are super smart, motivated and aligned with the mission and that’s your company. Or you can have a team of a thousand people where 200 people are super smart, super aligned with the mission and then 800 people are, let’s just say you pick 800 random big tech employees, which would you rather have? The talent mass is greater in the group of a thousand people. You have even a larger number of incredibly talented, incredibly aligned, incredibly smart people. But the issue is just that if every time someone super talented looks around, they see someone else super talented and super dedicated, that sets the tone for everything. That sets the tone for everyone is super inspired to work at the same place. Everyone trusts everyone else.
 
 (01:39:42) If you have a thousand or 10,000 people and things have really regressed, you are not able to do selection and you’re choosing random people, what happens is then you need to put a lot of processes and a lot of guardrails in place just because people don’t fully trust each other or you have to adjudicate political battles. There are so many things that slow down the org’s ability to operate. And so we’re nearly a thousand people and we’ve tried to make it so that as large a fraction of those thousand people as possible are super talented, super skilled, it’s one of the reasons we’ve slowed down hiring a lot in the last few months. We grew from 300 to 800, I believe, I think in the first seven, eight months of the year and now we’ve slowed down. The last three months, we went from 800 to 900, 950, something like that. Don’t quote me on the exact numbers, but I think there’s an inflection point around a thousand and we want to be much more careful how we grow.
-
-
 
 ## Amanda Askell on language model character and being a world traveler
 
@@ -47,6 +46,76 @@ Chris Olah
 
 ## Li Jiaqi on Haters
 
-> Chengfeng 2025
+> Chengfeng 2025, translated from Chinese
 
 Because sometimes it's pointless to argue with them. You can't win arguments against them, so all I can do is become better. Because when you run faster, those voices can't catch up to you.
+
+## Varun Mohan on Agency
+
+> https://www.lennysnewsletter.com/p/the-untold-story-of-windsurf-varun-mohan
+
+(21:37) I think one of the things that's maybe a little bit undervalued is this kind of agency piece. And I think about this a lot, which is, you have a lot of people that could go through college and go through school and they're basically told exactly what to do on a P-set.
+They're given these very, very, I would say, well-defined paths that they need to take. I think maybe in society and just school, we don't prioritize how do you make sure you get people with real agency that want to build something, right?
+
+Their goal is not just to maybe graduate from college and then get a job at a big tech company where they're told exactly what to do or where to put the pixel for this one website. I think that's maybe a skill set that is undervalued just right now, probably in the last maybe 10 years or so.
+
+And I think that's going to be really, really important. For a startup, obviously these are skills that we just look for. We look for people that are really high agency because we just recognize that by default, if we don't innovate and do crazy things, we're going to die. The company is just going to die.
+
+So we just look for this, right? But I would say for most software engineering jobs, that's probably not the case. Just think about big company X and what they're hiring for on the average software engineering interview. It probably doesn't look like that.
+
+## Varun Mohan on Role of Software Engineer / Developer
+
+> https://www.lennysnewsletter.com/p/the-untold-story-of-windsurf-varun-mohan
+
+(13:04) One of the key pieces that we recognized was, with this new paradigm with AI, AI was probably going to write well over 90% of the software, in which case the role of a developer and what they're doing in the IDE is maybe reviewing code. Maybe it's actually a little bit different than what it is in the past.
+
+(17:39) I think when we think about what is an engineer actually doing, it probably falls into three buckets, right? What should I solve for? How should I solve it? And then solving it.
+I guess everyone who's working in this space is probably increasingly convinced that solving it, which is just the pure, "I know how I'm going to do it" and just going and doing it. AI is going to handle vast majority, if not all of it.
+
+In fact, it probably actually, with some of the work that we've done in terms of deeply understanding code bases, how should I solve it is also going to get closer and closer to getting done.
+
+If you deeply understand the environment inside an organization, if you deeply understand the code base, how you should solve it, given best practices when the company also gets solved.
+
+So I think what engineering kind of goes to is actually what you wanted engineers to do in the first place, which is, what are the most important business problems that we do need to solve? What are the most important capabilities that we need our application, our product to have?
+
+And actually going and prioritizing those and actually going and making the right technical decisions to go out and doing it. And I think that's where engineering is probably heading towards.
+
+## Varun Mohan on Hiring
+
+> https://www.lennysnewsletter.com/p/the-untold-story-of-windsurf-varun-mohan
+
+(31:01) One of the key pieces that we look for, we have a very high technical bar. So assuming that they actually meet the technical bar, I think we sort of look for people that are really, really passionate about the mission of what we're actually trying to solve and people that are willing to work very hard.
+
+I think one of the things that we don't try to do is convince people, "Hey look, we are a very chill company and it's great to work here." I think, no, this is a very exciting space. It's very competitive.
+
+You should expect us to lose if the people at the company are not kind of... They're not working very hard. And I think one of the biggest dog whistles I hear is, when I ask people how hard are you willing to work, some people actually ultimately say, "Hey, I work very smart."
+
+And I basically ask them a question, "If we have many smart people at our company that also work hard, what's the differentiator going to be? Are you just going to pull them down?" Because I think one of the things that's true about companies is it's like this massive group project.
+
+And I think the thing about a person that is not pulling their weight that's bad. It's not the productivity, right? At some point when the company becomes many hundreds of engineers, I'm not going to be thinking about the one engineer that's not pulling their weight.
+
+It's the team of people they work with that are almost basically saying, "Is this the bar internally at the company? Is this the expectation?"
+
+And I guess, Lenny, if I told you you have a team of five people and the four other people you're working with just don't care, how much are you going to feel like you should care?
+
+## Varun Mohan on Hiring Human Engineers
+
+> https://www.lennysnewsletter.com/p/the-untold-story-of-windsurf-varun-mohan
+
+(1:04:15) I think it really comes down to, do you get incremental value by adding more engineers internally? I'm going to take... First of all, maybe just to set the record straight, if AI is writing over 90% of the code, that doesn't mean engineers are 10X as productive. Engineers spend more time than just writing code.
+
+The review code, test code, debug code, design code, deploy code, right? Navigate code. There's probably a lot of different things that engineers do. There's this one famous law in parallel computing, it's called Amdahl's Law. I don't know if you've heard about it.
+
+But it basically says if you have a graph of tasks and you have this critical path and you take any one task and parallelize it a ton, which is make it almost take zero amount of time, there's still a limit of the amount of how much faster it made the whole process go.
+
+So maybe put simply, let's say you have 100 units of time and only 30 units of time is being spent writing software and I took the 30 and made it three, I only took the 100 and made it 73. It's only a 27% improvement in the grand scheme of things.
+
+So I think look, we are definitely seeing over 30, maybe close to 40% productivity improvements. But I think for the vision that we're solving for, even if I were to say the company in the long tail had 200 engineers, it'd probably be too low still at that point.
+
+So the question is, how much more productivity do you get per person? Actually, maybe just to even say one of those thing for some of these large companies, let's say you took the CIO of a company like JPMorgan Chase, right?
+
+Her budget on software every year is $17 billion and there's over 50,000 engineers inside the company and you told her, "Hey, each of these engineers are now able to produce more technology." That's effectively what you've done, right?
+
+The right calculus that JPMorgan Chase or any of these companies will make is the ROI of building technology has actually gone up. So the opportunity cost of not investing more into technology has gone up, which means that you should just invest even more. And maybe in the short term you have even more engineers, right?
+
+Now, that's not true across the board. There are some companies that are happy with the amount of technology they're building and there's a ceiling on the amount of technology they want to build. But for companies that actually have a very high technology ceiling, this doesn't mean you stop. This actually means you hire more.
