@@ -2,7 +2,7 @@
 
 Awesome quotes from podcasts and elsewhere
 
-## Dario Amodei on vision and productivity
+## Dario Amodei on Vision and Productivity
 
 > https://lexfridman.com/dario-amodei-transcript
 
@@ -10,7 +10,7 @@ Awesome quotes from podcasts and elsewhere
 
 (01:33:52) And the fact that you are doing it, especially the fact that you’re doing it better than they are, causes them to change their behavior in a much more compelling way than if they’re your boss and you’re arguing with them. I don’t know how to be any more specific about it than that, but I think it’s generally very unproductive to try and get someone else’s vision to look like your vision. It’s much more productive to go off and do a clean experiment and say, “This is our vision, this is how we’re going to do things. Your choice is you can ignore us, you can reject what we’re doing or you can start to become more like us.” And imitation is the sincerest form of flattery. And that plays out in the behavior of customers, that plays out in the behavior of the public, that plays out in the behavior of where people choose to work. And again, at the end, it’s not about one company winning or another company winning.
 
-## Dario Amodei on talent density
+## Dario Amodei on Talent Density
 
 > https://lexfridman.com/dario-amodei-transcript
 
@@ -18,7 +18,7 @@ Awesome quotes from podcasts and elsewhere
 
 (01:39:42) If you have a thousand or 10,000 people and things have really regressed, you are not able to do selection and you’re choosing random people, what happens is then you need to put a lot of processes and a lot of guardrails in place just because people don’t fully trust each other or you have to adjudicate political battles. There are so many things that slow down the org’s ability to operate. And so we’re nearly a thousand people and we’ve tried to make it so that as large a fraction of those thousand people as possible are super talented, super skilled, it’s one of the reasons we’ve slowed down hiring a lot in the last few months. We grew from 300 to 800, I believe, I think in the first seven, eight months of the year and now we’ve slowed down. The last three months, we went from 800 to 900, 950, something like that. Don’t quote me on the exact numbers, but I think there’s an inflection point around a thousand and we want to be much more careful how we grow.
 
-## Amanda Askell on language model character and being a world traveler
+## Amanda Askell on Language Model Character and Being a World Traveler
 
 > https://lexfridman.com/dario-amodei-transcript
 
@@ -28,7 +28,7 @@ Awesome quotes from podcasts and elsewhere
 
 (02:55:00) … Being like, wow, that’s a really good person. That person seems really genuine. And I guess my thought there was I can imagine such a person and they’re not a person who just adopts the values of the local culture. And in fact, that would be kind of rude. I think if someone came to you and just pretended to have your values, you’d be like, that’s kind of off pin. It’s someone who’s very genuine and insofar as they have opinions and values, they express them. They’re willing to discuss things though, they’re open-minded, they’re respectful. And so I guess I had in mind that the person who, if we were to aspire to be the best person that we could be in the kind of circumstance that a model finds itself in, how would we act? And I think that’s the guide to the sorts of traits that I tend to think about.
 
-## Chris Olah on neurons, gradient descent and dimensions
+## Chris Olah on Neurons, Gradient Descent and Dimensions
 
 > https://lexfridman.com/dario-amodei-transcript
 
@@ -49,6 +49,62 @@ Chris Olah
 > Chengfeng 2025, translated from Chinese
 
 Because sometimes it's pointless to argue with them. You can't win arguments against them, so all I can do is become better. Because when you run faster, those voices can't catch up to you.
+
+## Guillermo Rauch on Git and How Engineers Work
+
+> https://www.lennysnewsletter.com/p/everyones-an-engineer-now-guillermo-rauch
+
+(14:36) It's fascinating, right? In many ways, if you think about the Git commit, the Git commit is super interesting. If you watch how an engineer works, they look at a problem, they spend a lot of time in their code editor, and at the end they say, "I think I got it. I think I've fixed it."
+
+And then they produce a Git commit. They summarize their intent and what they try to do after they've done the work. v0 inverts that. The Git commit is you go into the chat and say, "Please change the color of this button. And when I click it, save this form to a database."
+
+And so you're starting with the intent and the output is the code. And as a side effect, we can also produce a Git commit for you. That feature's not online yet, but it's coming in the next couple of days. Spoiler alert for the group.
+
+And so I like this idea of we can create this super set of all software building with this platform. And that is true to my initial intention with Vercel. Our mission is to enable the world to build and ship the best products. And so enabling that for the largest possible group of people is very exciting to me.
+
+## Guillermo Rauch on Future of Software Engineering
+
+> https://www.lennysnewsletter.com/p/everyones-an-engineer-now-guillermo-rauch
+
+(19:21) Yeah, I think knowing how things work is the most important skill in the world. I foresee a lot of people becoming incredibly impactful in building and shipping amazing products, and building gigantic companies, and everything you could imagine, where a single person can do the job of a hundred different people in a hundred different specializations.
+
+Take the example of one skill set that's really important to build a front-end product is you need to know how to use CSS or Tailwind to style it.
+
+And once upon a time, I would hire people that were truly specialists in this task, the task of there's a Figma design or there is some kind of sketch, and translating that into reality because they knew really well how to manipulate layouts, layout code, box model code, we call it, and borders, paddings, margins, flex box, all these technologies for styling.
+
+And notice, I actually use the word translation very intentionally, because the origin of the LLM or the transform architecture at least, goes as far back as the architecture for systems like Google Translate. They were generative LLM techniques, basically.
+
+That's how they cross that chasm of, remember when translating tools were horrible and then one day the problem was just solved? And I look at a lot of the programming jobs to be done that used to be specializations, that I think are going away, in a way, or the tasks to be done, they're translation tasks.
+
+We were translating from a screenshot, or intent, or a design into a React, and Tailwind, and CSS implementation. And right now, v0 is incredibly good at doing that. It's so good that every time we put a new generation of the model out, I run this test of converting my own website and try to generate it with v0.
+
+Last time I did it, it had taken me like 10 prompts to replicate it. Keep in mind I'm an expert front-end engineer that's been in the arena since I'm like 10 years old and I'm 35 now.
+
+And so I do that test because it's almost like a test of self-imposed humility of, like, "I remember exactly how long it took me to build my website with Next.js, the framework that I created, and ship it." And so with the last model, it took me maybe 10, 15 prompts?
+
+With the most recent model, it took me two prompts. And so that translation from the design intent into working implementation, another anecdote that I like to share with people is the model, because v0 tries to embed all of the best practices of the web, the model output more accessible code than what I wrote.
+
+It follows the accessibility guidelines that the web standards consortiums put out better than I did, because it just knows everything. And so those tasks where you can almost model it to a translation task, definitely going away. But knowing how things work under the hood, notice all the ... I'm using specific tokens in this conversation.
+
+I'm saying, "CSS," I'm saying, "Layout." I'm naming styles. Knowing those tokens is going to be very important for you because you're going to be able to influence the model and make it follow your intention a lot better.
+
+And so the TLDR would be knowing how things work, the symbolic systems, and that will mean that you have to probably go into each subject with less depth. I have engineers at Vercel that know every single CSS property by heart. They know when they became available in a certain web browser, they've been tracking this specification.
+
+It's almost like you're an encyclopedia of knowledge of each CSS property. You probably won't need that in the future, and probably that's good, because you'll free up your mind for more ambitious things.
+
+## Guillermo Rauch on Hiring Human Engineers
+
+> https://www.lennysnewsletter.com/p/everyones-an-engineer-now-guillermo-rauch
+
+(33:30) This is why the common, the running joke is that all of these companies have, you go to their careers page. It's like "Engineer, engineer, engineer." The counterpoint of that is that at Vercel had, we have 150 engineers that can write code and 600 total headcount. Now we have 600 engineers. Some of the best things that I've seen created with v0 have not come from our engineering team.
+
+They've come from the marketing team, they've come from the sales team, they've come from the product management team. The product management team is fascinating, because now they're actually building the product.
+
+So last night I saw how we've specced out in v0, think of it as like a live PRD, we've specced out how the new functionality for deploying a v0 to Vercel is going to work. The amount of detail that was contained in that v0, I mean, we're all just saying, "Well, just ship it.
+
+There's nothing else to discuss." It was animated, it was interactive. We were demonstrating the error state, the success state, the slow stream state. So it really empowers product builders not only with technical skills, I think that does a disservice to the tool.
+
+It empowers them to explore and augment their thinking with a lot of things that perhaps they wouldn't have considered otherwise, a lot of states of the product they wouldn't have considered otherwise.
 
 ## Varun Mohan on Agency
 
